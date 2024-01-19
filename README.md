@@ -1,3 +1,24 @@
+## 项目简介
+
+这是我的硕士毕业论文中的系统设计部分。
+
+该项目是APP或者微信小程序部分。
+
+![image-20240119232110061](README.assets/image-20240119232110061.png)
+
+
+
+![image-20240119232034379](README.assets/image-20240119232034379.png)
+
+
+
+![image-20240119232131810](README.assets/image-20240119232131810.png)
+
+
+
+
+
+
 <p align="center">
 	<img alt="logo" src="https://oscimg.oschina.net/oscnet/up-43e3941654fa3054c9684bf53d1b1d356a1.png">
 </p>
@@ -8,6 +29,8 @@
 	<a href="https://gitee.com/y_project/RuoYi-App"><img src="https://img.shields.io/badge/RuoYi-v1.1.0-brightgreen.svg"></a>
 	<a href="https://gitee.com/y_project/RuoYi-App/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg"></a>
 </p>
+
+
 
 ## 平台简介
 
@@ -29,7 +52,7 @@ RuoYi App 移动解决方案，采用uniapp框架，一份代码多终端适配�
 - 小程序体验
 
 <img src="https://oscimg.oschina.net/oscnet/up-26c76dc90b92acdbd9ac8cd5252f07c8ad9.jpg" alt="小程序演示"/>
- 
+
 
 ## 演示图
 
