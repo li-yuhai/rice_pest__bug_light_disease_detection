@@ -1,0 +1,169 @@
+{
+  "pages": [
+	  // 检测的首页
+	  {
+	    "path": "pages/detect/index",
+	    "style": { "navigationBarTitleText": "检测" }
+	  },
+	  //======================= 手持式水稻害虫检测上传页面
+	  {
+	    "path": "pages/detect/rice_pest/upload/index",
+	    "style": { "navigationBarTitleText": "手持式水稻害虫检测" }
+	  },
+	  //  手持式水稻害虫检测结果页面
+	  {
+	    "path": "pages/detect/rice_pest/result/index",
+	    "style": {
+	      "navigationBarTitleText": "手持式水稻害虫检测结果"
+	    }
+	  },
+	  //======================= 病害上传页面
+	  {
+	    "path": "pages/detect/bing/upload/index",
+	    "style": { "navigationBarTitleText": "水稻病害检测" }
+	  },
+	  {
+	    "path": "pages/detect/bing/result/index",
+	    "style": {
+	      "navigationBarTitleText": "水稻病害检测结果"
+	    }
+		},
+		//======================= 虫情测报灯图像上传页面
+		{
+		  "path": "pages/detect/cqcb_detect/upload/index",
+		  "style": { "navigationBarTitleText": "虫情测报灯图像水稻害虫检测" }
+		},
+		{
+		  "path": "pages/detect/cqcb_detect/result/index",
+		  "style": {
+		    "navigationBarTitleText": "虫情测报灯图像水稻害虫检测结果"
+		  }
+		},
+		
+		// ====================== 虫情测报灯设备信息
+		{
+		  "path": "pages/detect/cqcbd/index",
+		  "style": { "navigationBarTitleText": "虫情测报灯设备信息" }
+		},
+		// 虫情测报灯设备 详情 信息   
+		{
+		  "path": "pages/detect/cqcbd/detail/index",
+		  "style": { "navigationBarTitleText": "虫情测报灯设备详情信息" }
+		},
+		// 虫情测报灯 检测的效果图
+		{
+		  "path": "pages/detect/cqcbd/detect/index",
+		  "style": { "navigationBarTitleText": "虫情测报灯拍摄检测结果" }
+		},
+		
+		
+
+	  {
+    "path": "pages/login",
+    "style": {
+      "navigationBarTitleText": "登录"
+    }
+  }, {
+    "path": "pages/register",
+    "style": {
+      "navigationBarTitleText": "注册"
+    }
+  }, {
+    "path": "pages/index",
+    "style": {
+      "navigationBarTitleText": "若依移动端框架",
+      "navigationStyle": "custom"
+    }
+  }, {
+    "path": "pages/work/index",
+    "style": {
+      "navigationBarTitleText": "工作台"
+    }
+  }, {
+    "path": "pages/mine/index",
+    "style": {
+      "navigationBarTitleText": "我的"
+    }
+  }, {
+    "path": "pages/mine/avatar/index",
+    "style": {
+      "navigationBarTitleText": "修改头像"
+    }
+  }, {
+    "path": "pages/mine/info/index",
+    "style": {
+      "navigationBarTitleText": "个人信息"
+    }
+  }, {
+    "path": "pages/mine/info/edit",
+    "style": {
+      "navigationBarTitleText": "编辑资料"
+    }
+  }, {
+    "path": "pages/mine/pwd/index",
+    "style": {
+      "navigationBarTitleText": "修改密码"
+    }
+  }, {
+    "path": "pages/mine/setting/index",
+    "style": {
+      "navigationBarTitleText": "应用设置"
+    }
+  }, {
+    "path": "pages/mine/help/index",
+    "style": {
+      "navigationBarTitleText": "常见问题"
+    }
+  }, {
+    "path": "pages/mine/about/index",
+    "style": {
+      "navigationBarTitleText": "关于我们"
+    }
+  }, {
+    "path": "pages/common/webview/index",
+    "style": {
+      "navigationBarTitleText": "浏览网页"
+    }
+  }, {
+    "path": "pages/common/textview/index",
+    "style": {
+      "navigationBarTitleText": "浏览文本"
+    }
+  }],
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [{
+        "pagePath": "pages/detect/index",
+        "iconPath": "static/images/tabbar/home.png",
+        "selectedIconPath": "static/images/tabbar/home_.png",
+        "text": "检测"
+      }, 
+	  // {
+   //      "pagePath": "pages/index",
+   //      "iconPath": "static/images/tabbar/home.png",
+   //      "selectedIconPath": "static/images/tabbar/home_.png",
+   //      "text": "首页"
+   //    },
+	  
+	  {
+        "pagePath": "pages/work/index",
+        "iconPath": "static/images/tabbar/work.png",
+        "selectedIconPath": "static/images/tabbar/work_.png",
+        "text": "工作台"
+      }, {
+        "pagePath": "pages/mine/index",
+        "iconPath": "static/images/tabbar/mine.png",
+        "selectedIconPath": "static/images/tabbar/mine_.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "RuoYi",
+    "navigationBarBackgroundColor": "#FFFFFF"
+  }
+}
